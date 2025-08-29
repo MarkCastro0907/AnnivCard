@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary</title>
+  <link rel="icon" href="images/heart.png">
+  <link rel="stylesheet" href="card.css"> 
+</head>
+<body>
+  <div class="card">
+    <h2>💗 Happy Anniversary 💗</h2>
+    <p>Everyday is a gift from God. And I thank Him daily because I get two gifts: a new day and a beauty to be by my side. Happy Anniversary. I love you!</p>
+    <a href="#" class="btn" onclick="openModal()">Surprise Gift</a>
+
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <div id="slideshowModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <div class="slideshow" id="slideshow">
+        <img src="images/photo1.jpg">
+        <img src="images/photo2.jpg">
+        <img src="images/photo3.jpg">
+        <img src="images/photo4.jpg">
+        <img src="images/photo5.jpg">
+        <img src="images/photo6.jpg">
+        <img src="images/photo7.jpg">
+        <img src="images/photo8.jpg">
+        <img src="images/photo9.jpg">
+        <img src="images/photo10.jpg">
+      </div>
+    </div>
+  </div>
+
+  <audio id="bgMusic" src="music.mp3"></audio>
+
+  <script src="slideshow.js"></script>
+</body>
+</html>
